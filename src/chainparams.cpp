@@ -166,21 +166,12 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1545432353;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 15618253;
+        genesis.nNonce = 17158271;
 
-        std::cout << "MainNet" << std::endl;
-        while (!CheckProof(genesis.GetHash(), genesis.nBits)) {
-            genesis.nNonce ++;
-        }
-
-        std::cout << genesis.nNonce << std::endl;
-        std::cout << genesis.GetHash().GetHex() << std::endl;
-        std::cout << genesis.hashMerkleRoot.GetHex() << std::endl;
-
-        hashGenesisBlock = uint256("0x0000000b68c624b7fe1ee081ea8ecc4b9d10188ec3d61ed1763dcbc1d8c52e22");
+        hashGenesisBlock = uint256("0x0000058e6dbee9f1fb25d57c476ad762df64cb2f876e9bfa91562d4e9062592d");
         hashGenesisBlock = genesis.GetHash();
-        //assert(hashGenesisBlock == uint256("0x0000000b68c624b7fe1ee081ea8ecc4b9d10188ec3d61ed1763dcbc1d8c52e22"));
-        //assert(genesis.hashMerkleRoot == uint256("0x2b5fa0db551a298ee48ed14627bfc573df1de3cbbd5317f4bfd77c3ef0beced1"));
+        assert(hashGenesisBlock == uint256("0x0000058e6dbee9f1fb25d57c476ad762df64cb2f876e9bfa91562d4e9062592d"));
+        assert(genesis.hashMerkleRoot == uint256("0x65ba08fd7063a0512e0177e55ef5e368cbc5497c0b9fd20ded0d47fff04dc70b"));
 
         //vSeeds.push_back(CDNSSeedData("37.1.208.243", "37.1.208.243"));
         vFixedSeeds.clear();
@@ -263,7 +254,7 @@ public:
         nBlockLastGoodCheckpoint = 9891730; //Last valid accumulator checkpoint
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1541496960;
+        genesis.nTime = 1545432353;
         genesis.nNonce = 79855;
 
         vFixedSeeds.clear();
@@ -327,7 +318,7 @@ public:
         nTargetTimespan = 24 * 60 * 60; // blibrary: 1 day
         nTargetSpacing = 1 * 60;        // blibrary: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1541496960;
+        genesis.nTime = 1545432353;
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 732084;
 
