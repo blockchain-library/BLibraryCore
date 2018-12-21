@@ -74,12 +74,10 @@ bool CheckProof(uint256 hash, unsigned int nBits)
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (      0, uint256("0x0000000b68c624b7fe1ee081ea8ecc4b9d10188ec3d61ed1763dcbc1d8c52e22"))
-    (      2, uint256("0x000001db9b76c83625362a6f8c97b112d1000f92da9d1b6fa936dc71ae97ff7e"))
-    (   1100, uint256("0x00000080723c51e725f8108278875e2e3b74872cd6c38f51aa453fd6d683a2ef"));
+    (      0, uint256("0x001"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1541690888, // * UNIX timestamp of last checkpoint block
+    1545432353, // * UNIX timestamp of last checkpoint block
     0,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     0        // * estimated number of transactions per day after checkpoint
@@ -89,7 +87,7 @@ static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of(0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
-    1541496960,
+    1545432353,
     0,
     250};
 
@@ -97,7 +95,7 @@ static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
     boost::assign::map_list_of(0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
-    1541496960,
+    1545432353,
     0,
     100};
 
@@ -143,7 +141,7 @@ public:
         nMaxMoneyOut = 21000000 * COIN;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 1200;
+        nLastPOWBlock = 100;
         nModifierUpdateBlock = 999999999;
         nZerocoinStartHeight = 360000;
         nAccumulatorStartHeight = 1;
@@ -155,7 +153,7 @@ public:
 
         nXevanAlgo = 1804;
 
-        const char* pszTimestamp = "BlockChain-Library / ver 1.0.1.1";
+        const char* pszTimestamp = "BlockChain-Library / ver 2";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -166,16 +164,18 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1541496960;
+        genesis.nTime = 1545432353;
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 15618253;
 
         hashGenesisBlock = uint256("0x0000000b68c624b7fe1ee081ea8ecc4b9d10188ec3d61ed1763dcbc1d8c52e22");
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0000000b68c624b7fe1ee081ea8ecc4b9d10188ec3d61ed1763dcbc1d8c52e22"));
-        assert(genesis.hashMerkleRoot == uint256("0x2b5fa0db551a298ee48ed14627bfc573df1de3cbbd5317f4bfd77c3ef0beced1"));
+        //assert(hashGenesisBlock == uint256("0x0000000b68c624b7fe1ee081ea8ecc4b9d10188ec3d61ed1763dcbc1d8c52e22"));
+        //assert(genesis.hashMerkleRoot == uint256("0x2b5fa0db551a298ee48ed14627bfc573df1de3cbbd5317f4bfd77c3ef0beced1"));
 
-        vSeeds.push_back(CDNSSeedData("37.1.208.243", "37.1.208.243"));
+        //vSeeds.push_back(CDNSSeedData("37.1.208.243", "37.1.208.243"));
+        vFixedSeeds.clear();
+        vSeeds.clear();
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 26);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 53);
