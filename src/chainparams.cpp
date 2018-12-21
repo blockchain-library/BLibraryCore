@@ -168,6 +168,15 @@ public:
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 15618253;
 
+        std::cout << "MainNet" << std::endl;
+        while (!CheckProof(genesis.GetHash(), genesis.nBits)) {
+            genesis.nNonce ++;
+        }
+
+        std::cout << genesis.nNonce << std::endl;
+        std::cout << genesis.GetHash().GetHex() << std::endl;
+        std::cout << genesis.hashMerkleRoot.GetHex() << std::endl;
+
         hashGenesisBlock = uint256("0x0000000b68c624b7fe1ee081ea8ecc4b9d10188ec3d61ed1763dcbc1d8c52e22");
         hashGenesisBlock = genesis.GetHash();
         //assert(hashGenesisBlock == uint256("0x0000000b68c624b7fe1ee081ea8ecc4b9d10188ec3d61ed1763dcbc1d8c52e22"));
