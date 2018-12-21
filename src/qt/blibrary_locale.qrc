@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/blibrary_bg.qm</file>
+        <file alias="ca">locale/blibrary_ca.qm</file>
+        <file alias="cs">locale/blibrary_cs.qm</file>
+        <file alias="da">locale/blibrary_da.qm</file>
+        <file alias="de">locale/blibrary_de.qm</file>
+        <file alias="en">locale/blibrary_en.qm</file>
+        <file alias="en_US">locale/blibrary_en_US.qm</file>
+        <file alias="es">locale/blibrary_es.qm</file>
+        <file alias="fi">locale/blibrary_fi.qm</file>
+        <file alias="fr_FR">locale/blibrary_fr_FR.qm</file>
+        <file alias="hr">locale/blibrary_hr.qm</file>
+        <file alias="it">locale/blibrary_it.qm</file>
+        <file alias="ja">locale/blibrary_ja.qm</file>
+        <file alias="ko_KR">locale/blibrary_ko_KR.qm</file>
+        <file alias="nl">locale/blibrary_nl.qm</file>
+        <file alias="pl">locale/blibrary_pl.qm</file>
+        <file alias="pt">locale/blibrary_pt.qm</file>
+        <file alias="pt_BR">locale/blibrary_pt_BR.qm</file>
+        <file alias="ro_RO">locale/blibrary_ro_RO.qm</file>
+        <file alias="ru">locale/blibrary_ru.qm</file>
+        <file alias="sk">locale/blibrary_sk.qm</file>
+        <file alias="sv">locale/blibrary_sv.qm</file>
+        <file alias="tr">locale/blibrary_tr.qm</file>
+        <file alias="uk">locale/blibrary_uk.qm</file>
+        <file alias="zh_CN">locale/blibrary_zh_CN.qm</file>
+        <file alias="zh_TW">locale/blibrary_zh_TW.qm</file>
+    </qresource>
+</RCC>

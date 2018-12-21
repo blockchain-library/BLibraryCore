@@ -1,0 +1,26 @@
+[Unit]
+Description=blibrary's distributed currency daemon
+After=network.target
+
+[Service]
+User=blibrary
+Group=blibrary
+
+Type=forking
+PIDFile=/var/lib/blibraryd/blibraryd.pid
+
+ExecStart=/usr/bin/blibraryd -daemon -pid=/var/lib/blibraryd/blibraryd.pid \
+          -conf=/etc/blibrary/blibrary.conf -datadir=/var/lib/blibraryd
+
+ExecStop=-/usr/bin/blibrary-cli -conf=/etc/blibrary/blibrary.conf \
+         -datadir=/var/lib/blibraryd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
