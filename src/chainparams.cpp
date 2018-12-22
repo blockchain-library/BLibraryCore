@@ -133,11 +133,11 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 90;
-        nTargetSpacingSlowLaunch = 90;
-        nTargetSpacing = 90;
-        nMaturity = 49;
-        nMasternodeCountDrift = 20;
+        nTargetTimespan = 30;
+        nTargetSpacingSlowLaunch = 30;
+        nTargetSpacing = 30;
+        nMaturity = 21;
+        nMasternodeCountDrift = 2;
         nMaxMoneyOut = 21000000 * COIN;
 
         /** Height or Time Based Activations **/
