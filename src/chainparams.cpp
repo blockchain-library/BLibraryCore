@@ -142,7 +142,7 @@ public:
         nMaxMoneyOut = 21000000 * COIN;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 100;
+        nLastPOWBlock = 120;
         nModifierUpdateBlock = 999999999;
         nZerocoinStartHeight = 360000;
         nAccumulatorStartHeight = 1;
