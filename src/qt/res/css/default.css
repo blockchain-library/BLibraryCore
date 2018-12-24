@@ -706,13 +706,13 @@ border:0px solid #000;
 QWidget#PrivacyDialog QLabel#zWIRELabel {
 font-size:14px;
 color:#ffffff;
-background-color:#19c1ff;
+background-color:#2566b0;
 }
 
 QWidget#PrivacyDialog QLabel#oWIRELabel {
 font-size:14px;
 color:#19c1ff;
-background-color:#19c1ff;
+background-color:#2566b0;
 }
 
 QWidget#PrivacyDialog QPushButton {
