@@ -1014,13 +1014,13 @@ margin-left:16px;
 QWidget .QFrame#frame .QLabel#labelTotalText { /* Total Balance Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#19c1ff;
+/* background-color:#19c1ff; */
 color:#fff;
 margin-right:5px;
 padding-right:5px;
 font-weight:bold;
 font-size:14px;
-min-height:35px;
+/* min-height:35px; */
 }
 
 QWidget .QFrame#frame .QLabel#labelTotal { /* Total Balance */
