@@ -940,7 +940,7 @@ margin-left:16px;
 QWidget .QFrame#frame .QLabel#labelBalanceText { /* Available Balance Label */
 qproperty-alignment: 'AlignBottom | AlignRight';
 min-width:160px;
-background-color:#19c1ff;
+/* background-color:#19c1ff; */
 color:#fff;
 margin-right:5px;
 padding-right:5px;
@@ -951,7 +951,7 @@ min-height:35px;
 
 QWidget .QFrame#frame .QLabel#labelBalance { /* Available Balance */
 qproperty-alignment: 'AlignBottom | AlignLeft';
-font-size:20px;
+font-size:12px;
 font-weight:bold;
 color:#19c1ff;
 margin-left:0px;
@@ -959,14 +959,14 @@ margin-left:0px;
 
 QWidget .QFrame#frame .QLabel#labelWatchAvailable { /* Watch-only Balance */
 qproperty-alignment: 'AlignBottom | AlignLeft';
-font-size:20px;
+font-size:12px;
 margin-left:16px;
 }
 
 QWidget .QFrame#frame .QLabel#labelPendingText { /* Pending Balance Label */
 qproperty-alignment: 'AlignBottom | AlignRight';
 min-width:160px;
-background-color:#19c1ff;
+/* background-color:#19c1ff; */
 color:#fff;
 margin-right:5px;
 padding-right:5px;
@@ -977,20 +977,20 @@ min-height:35px;
 
 QWidget .QFrame#frame .QLabel#labelUnconfirmed { /* Pending Balance */
 qproperty-alignment: 'AlignBottom | AlignLeft';
-font-size:20px;
+font-size:12px;
 margin-left:0px;
 }
 
 QWidget .QFrame#frame .QLabel#labelWatchPending { /* Watch-only Pending Balance */
 qproperty-alignment: 'AlignBottom | AlignLeft';
-font-size:20px;
+font-size:12px;
 margin-left:16px;
 }
 
 QWidget .QFrame#frame .QLabel#labelImmatureText { /* Immature Balance Label */
 qproperty-alignment: 'AlignBottom | AlignRight';
 min-width:160px;
-background-color:#19c1ff;
+/* background-color:#19c1ff; */
 color:#fff;
 margin-right:5px;
 padding-right:5px;
@@ -1001,20 +1001,20 @@ min-height:35px;
 
 QWidget .QFrame#frame .QLabel#labelImmature { /* Immature Balance */
 qproperty-alignment: 'AlignBottom | AlignLeft';
-font-size:20px;
+font-size:12px;
 margin-left:0px;
 }
 
 QWidget .QFrame#frame .QLabel#labelWatchImmature { /* Watch-only Immature Balance */
 qproperty-alignment: 'AlignBottom | AlignLeft';
-font-size:20px;
+font-size:12px;
 margin-left:16px;
 }
 
 QWidget .QFrame#frame .QLabel#labelTotalText { /* Total Balance Label */
 qproperty-alignment: 'AlignBottom | AlignRight';
 min-width:160px;
-background-color:#19c1ff;
+/* background-color:#19c1ff; */
 color:#fff;
 margin-right:5px;
 padding-right:5px;
@@ -1025,14 +1025,14 @@ font-size:12px;
 
 QWidget .QFrame#frame .QLabel#labelTotal { /* Total Balance */
 qproperty-alignment: 'AlignBottom | AlignLeft';
-font-size:20px;
+font-size:12px;
 margin-left:0px;
 color:#fff;
 }
 
 QWidget .QFrame#frame .QLabel#labelWatchTotal { /* Watch-only Total Balance */
 qproperty-alignment: 'AlignBottom | AlignLeft';
-font-size:20px;
+font-size:12px;
 margin-left:16px;
 color:#fff;
 }
@@ -1407,7 +1407,7 @@ padding-bottom:20px;*/
 min-height:27px;
 }
 
-QDialog#SendCoinsDialog QLabel#labelBalance {
+QDialog#SendCoinsDialog QLabel#label {
 margin-left:0px;
 padding-left:0px;
 color:#333333;
