@@ -940,7 +940,7 @@ margin-left:16px;
 QWidget .QFrame#frame .QLabel#labelBalanceText { /* Available Balance Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#19c1ff;
+/* background-color:#19c1ff; */
 color:#fff;
 margin-right:5px;
 padding-right:5px;
@@ -966,7 +966,7 @@ margin-left:16px;
 QWidget .QFrame#frame .QLabel#labelPendingText { /* Pending Balance Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#19c1ff;
+/* background-color:#19c1ff; */
 color:#fff;
 margin-right:5px;
 padding-right:5px;
@@ -990,7 +990,7 @@ margin-left:16px;
 QWidget .QFrame#frame .QLabel#labelImmatureText { /* Immature Balance Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#19c1ff;
+/* background-color:#19c1ff; */
 color:#fff;
 margin-right:5px;
 padding-right:5px;
@@ -1051,7 +1051,7 @@ padding-right:5px;
 QWidget .QFrame#frame_4 .QLabel#labelzBalanceText { /* Available zWIRE Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#19c1ff;
+/* background-color:#19c1ff; */
 color:#fff;
 margin-right:5px;
 padding-right:5px;
@@ -1071,7 +1071,7 @@ margin-left:0px;
 QWidget .QFrame#frame_4 .QLabel#labelzBalanceUnconfirmedText { /* Unconfirmed zWIRE Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#19c1ff;
+/* background-color:#19c1ff; */
 color:#fff;
 margin-right:5px;
 padding-right:5px;
@@ -1091,7 +1091,7 @@ margin-left:0px;
 QWidget .QFrame#frame_4 .QLabel#labelzBalanceMatureText { /* Mature zWIRE Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#19c1ff;
+/* background-color:#19c1ff; */
 color:#fff;
 margin-right:5px;
 padding-right:5px;
@@ -1111,7 +1111,7 @@ margin-left:0px;
 QWidget .QFrame#frame_4 .QLabel#labelzBalanceImmatureText { /* Immature zWIRE Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#19c1ff;
+/* background-color:#19c1ff; */
 color:#fff;
 margin-right:5px;
 padding-right:5px;
@@ -1142,7 +1142,7 @@ padding-right:5px;
 QWidget .QFrame#frame_3 .QLabel#labelBalanceTextz { /* Available WIRE Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#19c1ff;
+/* background-color:#19c1ff; */
 color:#fff;
 margin-right:5px;
 padding-right:5px;
@@ -1162,7 +1162,7 @@ margin-left:0px;
 QWidget .QFrame#frame_3 .QLabel#labelzBalanceTextz { /* Available zWIRE Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#19c1ff;
+/* background-color:#19c1ff; */
 color:#fff;
 margin-right:5px;
 padding-right:5px;
@@ -1182,7 +1182,7 @@ margin-left:0px;
 QWidget .QFrame#frame_3 .QLabel#labelLockedBalanceText { /* Available zWIRE Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#19c1ff;
+/* background-color:#19c1ff; */
 color:#fff;
 margin-right:5px;
 padding-right:5px;
@@ -1202,7 +1202,7 @@ margin-left:0px;
 QWidget .QFrame#frame_3 .QLabel#labelUnLockedBalanceText { /* Available zWIRE Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#19c1ff;
+/* background-color:#19c1ff; */
 color:#fff;
 margin-right:5px;
 padding-right:5px;
@@ -1222,7 +1222,7 @@ margin-left:0px;
 QWidget .QFrame#frame_3 .QLabel#labelTotalTextz { /* Available total Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#19c1ff;
+/* background-color:#19c1ff; */
 color:#fff;
 margin-right:5px;
 padding-right:5px;
