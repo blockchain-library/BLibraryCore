@@ -706,13 +706,13 @@ border:0px solid #000;
 QWidget#PrivacyDialog QLabel#zWIRELabel {
 font-size:14px;
 color:#ffffff;
-background-color:#2566b0;
+background-color:#19c1ff;
 }
 
 QWidget#PrivacyDialog QLabel#oWIRELabel {
 font-size:14px;
 color:#19c1ff;
-background-color:#2566b0;
+background-color:#19c1ff;
 }
 
 QWidget#PrivacyDialog QPushButton {
@@ -966,7 +966,7 @@ margin-left:16px;
 QWidget .QFrame#frame .QLabel#labelPendingText { /* Pending Balance Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
-background-color:#19c1ff;
+background-color:#000;
 color:#fff;
 margin-right:5px;
 padding-right:5px;
