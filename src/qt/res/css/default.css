@@ -1011,13 +1011,12 @@ margin-left:16px;
 QWidget .QFrame#frame .QLabel#labelTotalText { /* Total Balance Label */
 qproperty-alignment: 'AlignBottom | AlignRight';
 min-width:160px;
-/* background-color:#19c1ff; */
+font-weight: bold;
 color:#fff;
 margin-right:5px;
 padding-right:5px;
 font-weight:bold;
 font-size:12px;
-/* min-height:35px; */
 }
 
 QWidget .QFrame#frame .QLabel#labelTotal { /* Total Balance */
@@ -1025,6 +1024,7 @@ qproperty-alignment: 'AlignBottom | AlignLeft';
 font-size:12px;
 margin-left:0px;
 color:#fff;
+font-weight: bold;
 }
 
 QWidget .QFrame#frame .QLabel#labelWatchTotal { /* Watch-only Total Balance */
@@ -1032,6 +1032,7 @@ qproperty-alignment: 'AlignBottom | AlignLeft';
 font-size:12px;
 margin-left:16px;
 color:#fff;
+font-weight: bold;
 }
 
 QWidget .QFrame#frame_4 .QLabel#label_5z_3 { /* Zerocoin Balance Label */
