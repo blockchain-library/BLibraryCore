@@ -46,12 +46,12 @@ border:0px solid #fff;
 }
 
 QMenuBar {
-background-color:#818181;
+background-color:#fff;
 }
 
 QMenuBar::item {
-background-color:#818181;
-color:#fff;
+background-color:#fff;
+color:#333;
 }
 
 QMenuBar::item:selected {
@@ -63,7 +63,8 @@ background-color:#f8f6f6;
 }
 
 QMenu::item {
-color:#fff;
+color:#333;
+transition: 0.3s;
 }
 
 QMenu::item:hover {
@@ -72,7 +73,7 @@ color:#3d9ec8;
 
 QMenu::item:selected {
 background-color:#90d3f0;
-color:#fff;
+color:#333;
 }
 
 QMessageBox {
