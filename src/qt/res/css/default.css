@@ -951,7 +951,7 @@ min-height:35px;
 
 QWidget .QFrame#frame .QLabel#labelBalance { /* Available Balance */
 qproperty-alignment: 'AlignBottom | AlignLeft';
-font-size:12px;
+font-size:20px;
 font-weight:bold;
 color:#19c1ff;
 margin-left:0px;
@@ -959,7 +959,7 @@ margin-left:0px;
 
 QWidget .QFrame#frame .QLabel#labelWatchAvailable { /* Watch-only Balance */
 qproperty-alignment: 'AlignBottom | AlignLeft';
-font-size:12px;
+font-size:20px;
 margin-left:16px;
 }
 
@@ -979,6 +979,7 @@ QWidget .QFrame#frame .QLabel#labelUnconfirmed { /* Pending Balance */
 qproperty-alignment: 'AlignBottom | AlignLeft';
 font-size:12px;
 margin-left:0px;
+color:#fff;
 }
 
 QWidget .QFrame#frame .QLabel#labelWatchPending { /* Watch-only Pending Balance */
