@@ -906,7 +906,6 @@ min-width:490px;
 QWidget .QFrame#frame > .QLabel {
 min-width:190px;
 font-weight:normal;
-min-height:30px;
 }
 
 QWidget .QFrame#frame .QLabel#label_5 { /* WIRE Balances Label */
@@ -946,7 +945,6 @@ margin-right:5px;
 padding-right:5px;
 font-weight:bold;
 font-size:12px;
-min-height:35px;
 }
 
 QWidget .QFrame#frame .QLabel#labelBalance { /* Available Balance */
@@ -972,7 +970,6 @@ margin-right:5px;
 padding-right:5px;
 font-weight:bold;
 font-size:12px;
-min-height:35px;
 }
 
 QWidget .QFrame#frame .QLabel#labelUnconfirmed { /* Pending Balance */
