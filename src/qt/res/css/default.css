@@ -1228,18 +1228,18 @@ margin-top:0;
 background-image: url(':/images/wire_logo_horizontal');
 background-repeat:none;
 background: #fff;
+border-radius: 5px;
 }
 
 QWidget .QFrame#frame_2 .QLabel#label_4 { /* Recent Transactions Label */
 min-width:180px;
-color:#fff;
 margin-left:67px;
-margin-top:83px;
 margin-right:5px;
 padding-right:5px;
 font-weight:bold;
-font-size:15px;
+font-size:20px;
 min-height:24px;
+
 }
 
 QWidget .QFrame#frame_2 .QLabel#labelTransactionsStatus { /* Recent Transactions Sync Status */
@@ -1249,7 +1249,6 @@ margin-top:83px;
 margin-left:16px;
 margin-right:5px;
 min-height:16px;
-color: #fff;
 }
 
 QWidget .QFrame#frame_2 QListView { /* Transaction List */
@@ -1258,7 +1257,6 @@ font-size:12px;
 max-width:369px;
 margin-top:12px;
 margin-left:0px; /* CSS Voodoo - set to -66px to hide default transaction icons */
-color: #fff;
 }
 
 /**************************** SEND DIALOG ***********************************************/
