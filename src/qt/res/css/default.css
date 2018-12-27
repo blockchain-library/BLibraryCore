@@ -9,8 +9,9 @@
   background-color: none;
   border-radius: 5px;
   padding: 5px 10;
-  margin: 6px;
+  margin: 6px 6px 0px 3px;
   border: 1px solid #bdc3c7;
+  overflow: hidden;
 }
 
 /* balance top */
@@ -28,7 +29,7 @@
 
 /* z balance */
 .QFrame#frame_4, .QFrame#frame_3 {
-  margin: 5px;
+  margin: 10px;
 }
 
 .QFrame#frame_4 .QLabel, .QFrame#frame_3 .QLabel {
