@@ -9,6 +9,8 @@
   background-color: none;
   border-radius: 5px;
   padding: 10px;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+  margin: 6px;
 }
 
 /* balance top */
