@@ -5,7 +5,7 @@
 }
 
 /* frame */
-.QFrame#frame, .QFrame#frame_4, .QFrame#frame_3 {
+.QFrame#frame, .QFrame#frameObfuscation {
   background-color: none;
   border-radius: 5px;
   padding: 5px 10;
@@ -27,6 +27,10 @@
 }
 
 /* z balance */
+.QFrame#frame_4, .QFrame#frame_3 {
+  margin: 5px;
+}
+
 .QFrame#frame_4 .QLabel, .QFrame#frame_3 .QLabel {
   font-size: 9px;
   color: #34495e;
