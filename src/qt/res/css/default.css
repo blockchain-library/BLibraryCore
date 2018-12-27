@@ -1,9 +1,9 @@
 
 .QWidget {
-  background-color: #ccc;
+  background-color: #ecf0f1;
 }
 
 .QFrame#frame_4 .QLabel {
   font-size: 9px;
-  color: #ccc;
+  color: #34495e;
 }
