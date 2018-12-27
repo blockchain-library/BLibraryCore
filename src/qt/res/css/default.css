@@ -1,6 +1,17 @@
+/* background */
 
 .QWidget {
   background-color: #ecf0f1;
+}
+
+/* balance top */
+.QFrame#frame .QLabel {
+  qproperty-alignment: 'AlignVBottom | AlignRight';
+  font-size: 12px;
+}
+
+.QFrame#frame .QLabel#labelBalance {
+  font-size: 20px;
 }
 
 .QFrame#frame_4 .QLabel {
