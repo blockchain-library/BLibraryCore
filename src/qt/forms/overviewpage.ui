@@ -139,8 +139,11 @@
           </item>
           <item>
            <layout class="QGridLayout" name="gridLayout">
-            <property name="spacing">
+            <property name="horizontalSpacing">
              <number>12</number>
+            </property>
+            <property name="verticalSpacing">
+             <number>0</number>
             </property>
             <item row="1" column="2">
              <widget class="QLabel" name="labelWatchAvailable">
@@ -460,10 +463,6 @@
          </property>
          <property name="layoutDirection">
           <enum>Qt::LeftToRight</enum>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">background-color: #fff;
-border-radius: 5px;</string>
          </property>
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
@@ -933,10 +932,6 @@ border-radius: 5px;</string>
             <height>201</height>
            </rect>
           </property>
-          <property name="styleSheet">
-           <string notr="true">border-radius: 5px;
-background-color: #fff;</string>
-          </property>
           <property name="frameShape">
            <enum>QFrame::StyledPanel</enum>
           </property>
@@ -1217,10 +1212,6 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
             <width>465</width>
             <height>171</height>
            </rect>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">border-radius: 5px;
-background-color: #fff;</string>
           </property>
           <property name="frameShape">
            <enum>QFrame::StyledPanel</enum>
