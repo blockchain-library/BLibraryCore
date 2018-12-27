@@ -5,14 +5,13 @@
 }
 
 /* frame */
-.QFrame#frame , .QFrame#frame_4 {
+.QFrame#frame, .QFrame#frame_4, .QFrame#frame_3 {
   background-color: none;
   border-radius: 5px;
   padding: 10px;
 }
 
 /* balance top */
-
 
 .QFrame#frame .QLabel {
   qproperty-alignment: 'AlignVBottom | AlignRight';
@@ -25,7 +24,8 @@
   qproperty-alignment: 'AlignVBottom | AlignLeft';
 }
 
-.QFrame#frame_4 .QLabel {
+/* z balance */
+.QFrame#frame_4 .QLabel, .QFrame#frame_3 .QLabel {
   font-size: 9px;
   color: #34495e;
 }
