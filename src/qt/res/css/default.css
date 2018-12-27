@@ -1,4 +1,8 @@
 
+.OverviewPage {
+  background: #000;
+}
+
 .QFrame#frame_4 .QLabel {
   font-size: 9px;
   color: #ccc;
