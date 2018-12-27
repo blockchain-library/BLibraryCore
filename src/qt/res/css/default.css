@@ -1,6 +1,6 @@
 
-.QHBoxLayout {
-  background: #000;
+.QWidget {
+  background-color: #ccc;
 }
 
 .QFrame#frame_4 .QLabel {
