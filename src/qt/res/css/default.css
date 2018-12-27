@@ -4,12 +4,16 @@
   background-color: #ecf0f1;
 }
 
-/* balance top */
-.QFrame#frame {
+/* frame */
+.QFrame#frame , .QFrame#frame_4 {
   background-color: none;
   border-radius: 5px;
-  margin: 10px;
+  padding: 10px;
 }
+
+/* balance top */
+
+
 .QFrame#frame .QLabel {
   qproperty-alignment: 'AlignVBottom | AlignRight';
   font-size: 12px;
