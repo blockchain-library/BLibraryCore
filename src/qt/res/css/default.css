@@ -5,10 +5,10 @@
 }
 
 /* frame */
-.QFrame#frame {
+.QFrame#frame, .QFrame#frame_4, .QFrame#frame_3 {
   background-color: none;
   border-radius: 5px;
-  padding: 10px;
+  padding: 5px 10;
   margin: 6px;
   border: 1px solid #bdc3c7;
 }
@@ -31,5 +31,3 @@
   font-size: 9px;
   color: #34495e;
 }
-
-.QFrame#frameObfuscation
