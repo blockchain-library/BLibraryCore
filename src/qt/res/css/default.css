@@ -12,6 +12,7 @@
   outline: none;
   border-width: 2px 0;
   border-style: solid none;
+  border-color: #2c3e50 #000 #2c3e50;
   border-radius: 6px;
   background: linear-gradient(#2c3e50, #34495e) #34495e;
 }
