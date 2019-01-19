@@ -138,15 +138,13 @@ public:
         if(GetTime() > 1547890000) {
           nTargetTimespan = 24 * 60 * 60;
           nTargetSpacingSlowLaunch = 2.5 * 60;
+          nTargetSpacing = 60 * 60;
         } else {
           nTargetTimespan = 30;
           nTargetSpacingSlowLaunch = 30;
+          nTargetSpacing = 30;
         }
 
-
-        nTargetTimespan = 30;
-        nTargetSpacingSlowLaunch = 30;
-        nTargetSpacing = 30;
         nMaturity = 21;
         nMasternodeCountDrift = 2;
         nMaxMoneyOut = 21000000 * COIN;
