@@ -9,6 +9,7 @@
 #include "libzerocoin/Params.h"
 
 #include "chainparams.h"
+#include "main.h"
 #include "random.h"
 #include "util.h"
 #include "utilstrencodings.h"
@@ -134,6 +135,15 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
+        if(nTime > 1547890000) {
+          nTargetTimespan = 24 * 60 * 60;
+          nTargetSpacingSlowLaunch = 2.5 * 60;
+        } else {
+          nTargetTimespan = 30;
+          nTargetSpacingSlowLaunch = 30;
+        }
+
+
         nTargetTimespan = 30;
         nTargetSpacingSlowLaunch = 30;
         nTargetSpacing = 30;
