@@ -135,7 +135,7 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        if(nTime > 1547890000) {
+        if(GetTime() > 1547890000) {
           nTargetTimespan = 24 * 60 * 60;
           nTargetSpacingSlowLaunch = 2.5 * 60;
         } else {
